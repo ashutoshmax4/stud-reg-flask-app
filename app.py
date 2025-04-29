@@ -25,7 +25,7 @@ def register():
         cursor.close()
         conn.close()
  
-        return 'Student Registered Successfully!'
+        return 'Student Registered Successfully!!'
     return render_template('register.html')
  
 if __name__ == '__main__':
